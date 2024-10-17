@@ -1,0 +1,46 @@
+html,body {
+    padding:0;
+    margin:0;
+    background:#fff;
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.buttons{display:flex; flex-direction:row;justify-content:center;position:fixed;top:0;left:0;right:0;}
+.buttons2{display:flex; flex-direction:row;justify-content:center;position:fixed;bottom:0;left:0;right:0;}
+.buttons3{display:flex; flex-direction:column;justify-content:center;min-height:100vh;min-width:50px;position:fixed;left:0;margin-top:0vh;}
+.buttons4{display:flex; flex-direction:column;justify-content:center;min-height:100vh;min-width:50px;position:fixed;right:0;margin-top:0vh;}
+.button {display:none;position:relative;z-index:1000;width:7vh;height:7vh;background:#fff;border:2px solid #333;margin:auto;border-radius:40px;margin:10vh;min-width:30px;}
+.buttons {margin-top:10vh}
+.buttons2 {margin-bottom:10vh}
+.buttons .button, .buttons2 .button {margin:0 10vh}
+.buttons3 .button {margin-right:0}
+.buttons4 .button {margin-left:0;right:0;}
+
+.button:hover{cursor:pointer;background:#eee;border:2px solid #000;}
+#randomize{cursor:pointer;position: fixed;margin-inline:auto;width:fit-content;background:#eee;padding:10px 20px;border:2px solid #000;border-radius:100px;font-family:Verdana, Geneva, sans-serif;margin-bottom:0;bottom:20px;right: 10vw;}
+#origin{cursor:pointer;position: fixed;margin-inline:auto;width:fit-content;background:#eee;padding:10px 20px;border:2px solid #000;border-radius:100px;font-family:Verdana, Geneva, sans-serif;margin-bottom:0;bottom:20px;left: 10vw;}
+#randomize:hover,#origin:hover{background:#fff;border:2px solid #333;}
+.numpad{font-family:Verdana, Geneva, sans-serif;position:fixed;width=12vh;height=12vh;top:10px;right:10px;}
+.btn{ cursor:pointer;
+    float: left;
+    width: 5vh;
+    height: 2.5vh;
+    margin: 0.5vh;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 2vh;
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
+    border-radius:1vh;
+    border:2px solid #000;
+    font-weight:bold;
+    font-family:Verdana, Geneva, sans-serif;
+}
+.btn:hover, .btn.hover{background:#eee;}
